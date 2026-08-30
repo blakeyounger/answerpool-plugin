@@ -1,0 +1,21 @@
+{
+  "name": "cortexassay",
+  "displayName": "CortexAssay",
+  "version": "0.1.0",
+  "description": "SEC filing events, Federal Register rules, federal funding signals and OpenAlex research momentum — computed from open data, with provenance.",
+  "author": { "name": "CortexAssay", "url": "https://cortexassay.com" },
+  "homepage": "https://cortexassay.com",
+  "repository": "https://github.com/blakeyounger/cortexassay-plugin",
+  "license": "MIT",
+  "keywords": ["sec", "edgar", "federal-register", "usaspending", "openalex", "finance", "research"],
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "api_token": {
+      "type": "string",
+      "title": "CortexAssay credit key (optional)",
+      "description": "Needed only for paid tools. Buy credits from $1 at https://cortexassay.com/v1/credits/checkout — the free technology_lookup tool works without a key.",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

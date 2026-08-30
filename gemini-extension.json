@@ -1,0 +1,19 @@
+{
+  "name": "cortexassay",
+  "version": "0.1.0",
+  "description": "SEC filing events, Federal Register rules, federal funding signals and OpenAlex research momentum — computed from open data, with provenance.",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "CortexAssay credit key (optional; paid tools only)",
+      "envVar": "CORTEXASSAY_API_KEY",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "cortexassay": {
+      "httpUrl": "https://cortexassay.com/mcp",
+      "headers": { "Authorization": "Bearer ${CORTEXASSAY_API_KEY}" }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "cortexassay": {
+      "type": "http",
+      "url": "https://cortexassay.com/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.api_token}" }
+    }
+  }
+}
