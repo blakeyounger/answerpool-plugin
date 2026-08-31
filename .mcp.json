@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "cortexassay": {
+    "answerpool": {
       "type": "http",
-      "url": "https://cortexassay.com/mcp",
+      "url": "https://answerpool.io/mcp",
       "headers": { "Authorization": "Bearer ${user_config.api_token}" }
     }
   }
